@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aabhar for FreeJal</title>
+    <link rel="icon" type="image/gif" href="Aabhar logo a.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBpvzxXwF6tZdV-4gdC3zs2xkeRrfQbcdk",
+        authDomain: "aabhar-official-web-page-24f40.firebaseapp.com",
+        projectId: "aabhar-official-web-page-24f40",
+        storageBucket: "aabhar-official-web-page-24f40.appspot.com",
+        messagingSenderId: "237070195729",
+        appId: "1:237070195729:web:e89fae4e18830cb82565b0",
+        measurementId: "G-M5VRGP5BLY"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script> 
+  </head>
+
+  <body>
+
+    <!-- loader code start  -->
+    <!-- <div class="preloader" id="preloader">
+      <div class="loader-3" >
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+      </div>
+  </div> -->
+    <!-- loader code end -->
+
+
+    <!-- HomePage -->
+    <div class="home-page">
+      <!-- Header -->
+
+      <header class="header">
+        <a name="home"> </a>
+        <div class="logo">
+          <img src="Aabhar logo.png" alt="Deepam" />
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutus">About us</a></li>
+          <li><a href="#Sponsers">Sponsers</a></li>
+          <li><a href="#Advertise">Advertise</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li><a href="#faqs">FAQ's</a></li>
+        </ul>
+
+        <!-- liness -->
+        <div class="container" onclick="myFunction(this) ;myBurger()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        
+      </header>
+
+
+      <div class="wrapper">
+        <div class="menu">
+          <div class="follow">
+            Follow Us
+          </div>
+          <div class="line"></div>
+          <div class="nav-menu">
+            <a href="http://wa.me/918269856202?text=hello+Aabhar" class="menu-link" target="_blank">WhatsApp</a>
+            <a href="https://www.instagram.com/aabhar.in/" class="menu-link" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/akash-yadav-a33042213" class="menu-link" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/aabhar_in" class="menu-link" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/profile.php?id=61556970815283" class="menu-link" target="_blank">Facebook</a>
+            <a href="https://www.snapchat.com/add/aabhar.in?share_id=bdkMZ_6NIBU&locale=en-IN" class="menu-link" >Snapchat</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- FrontPage -  Sliding -->
+      <video autoplay muted loop id="myVideo" class="bg">
+        <source src="img/aabhar webpage bg.webm" type="video/webm">
+      </video>
+
+       <!-- social media -->
+
+
+    <!-- Products -->
+  
+    <!-- About-Us -->
+    <!-- <div class="aboutus">
+      <a name="aboutus"> </a>
+      <section class="about-us">
+        <div class="about">
+          <img src="img/abtus.png" class="pic" />
+          <div class="text">
+            <div class="Heading" id="Abtus">
+              <h1>About Us</h1>
+            </div>
+            <h5>Deepesh & Ambika Patidar's <span>DeepAm Creation</span></h5>
+            <p>
+              With the evolution of technology and the wave of digitalization,
+              more and more businesses are adapting to tech evolutions. You will
+              find digital payment options with DeepAm Creation The ultimate
+              purpose behind this evolution is to make flower-pot shopping a
+              hassle-free experience for everyone.The project aims to build a
+              webpage to reduce the manual work for selling the products,
+              Delivery Address, and Shopping Cart. It tracks all the details
+              about the Cart, Customer, and Order. Manage the information of
+              Customers.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+   contact
+    <div class="contact">
+      <a name="contact"> </a>
+      <footer class="footer-distributed">
+        <div class="ftr">
+        <div class="footer-left">
+          <h3>Deepam&nbsp;<span>Creation</span></h3>
+
+          <p class="footer-links">
+            <a href="#home">Home</a>
+            ·
+            <a href="#products">Pricing</a>
+            ·
+            <a href="#aboutus">About</a>
+            ·
+            <a href="#contact">Faq</a>
+            ·
+            <a href="#contact">Contact</a>
+          </p>
+
+          <p class="footer-company-name">Deepam Creationn © 2021</p>
+        </div>
+
+        <div class="footer-right">
+          <form action="#" method="post">
+            <input type="text" name="email" placeholder="Email" />
+            <textarea name="message" placeholder="FeedBack"></textarea>
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+      </footer>
+    </div>
+  </div> -->
+
+
+    <a href="#home">
+      <div class="totop"><button>Top</button></div>
+    </a>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
